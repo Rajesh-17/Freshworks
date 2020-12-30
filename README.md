@@ -4,7 +4,7 @@ Build a file-based key-value data store that supports the basic CRD (create, rea
 
 The data store will support the following functional requirements.
 
-l . It can be initialized using an optional file path. If one is not provided, it will reliably create itself in a reasonable location on the laptop.
+l. It can be initialized using an optional file path. If one is not provided, it will reliably create itself in a reasonable location on the laptop.
 
 2.	A new key-value pair can be added to the data store using the Create operation. The key is always a string - capped at 32chars. The value is always a JSON object - capped at 16KB.
 
